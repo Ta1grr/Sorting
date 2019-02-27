@@ -52,7 +52,7 @@ def quick_sort( arr, low, high ):
     return arr
 
 #Quick Sort example we used during class:
-def quick_sort(a):
+def quick_sorts(a):
     #Base case to exit out of the for loop
     if len(a) <= 1:
         return a
@@ -80,7 +80,7 @@ def quick_sort(a):
 
     #Recursively call quick_sort twice and split into two list, 0 to flag and flag to pivot.
     #Then repeat the previous steps until length of a is less than 1
-    return quick_sort(a[:len(a[1:flag+1])]) + quick_sort(a[flag:pivot+1])
+    return quick_sorts(a[:len(a[1:flag+1])]) + quick_sorts(a[flag:pivot+1])
 
 # Quick Sort Algorithm from the readme.md
 # 1. Select a pivot. Often times this is the first or last element in a set. It can also be the middle.
