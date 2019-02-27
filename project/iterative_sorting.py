@@ -23,10 +23,26 @@ def selection_sort( arr ):
 # TO-DO: implement the Insertion Sort function below
 def insertion_sort( arr ):
     for i in range(1, len(arr)):
-        cur_value = 
-        while 
+        cur_value = None
+        for  j in range(i, len(arr[::-i]), -1):
+            j > cur_value
+
 
     return arr
+
+#     mark first element as sorted
+
+# for each unsorted element X
+
+#   'extract' the element X
+
+#   for j = lastSortedIndex down to 0
+
+#     if current element j > X
+
+#       move sorted element to the right by 1
+
+#     break loop and insert X here
 
 
 # STRETCH: implement the Bubble Sort function below
