@@ -6,6 +6,7 @@ def selection_sort( arr ):
         smallest_index = cur_index
         # TO-DO: find next smallest element
         # (hint, can do in 3 loc) 
+        #Iterating through the 
         for j in range(cur_index, len(arr)):
             if arr[j] < arr[smallest_index]:
                 smallest_index = j
@@ -54,9 +55,9 @@ def insertion_sort( arr ):
 
 # STRETCH: implement the Bubble Sort function below
 def bubble_sort( arr ):
-    for i in range(1, len(arr)):
-        
-    return arr
+    # for i in range(1, len(arr)):
+
+     return arr
 
 
 # STRETCH: implement the Count Sort function below
